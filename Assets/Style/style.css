@@ -22,12 +22,15 @@ body {
 
 #logo {
   width: 257px;
+  cursor: pointer;
 }
 
 .Search__container {
   display: flex;
   flex: 1;
   margin-left: 20px;
+  cursor: pointer;
+
 }
 
 form {
@@ -39,6 +42,8 @@ form {
   border: 1px solid rgb(216, 216, 216);
   width: 100%;
   padding: 15px;
+  cursor: pointer;
+
 }
 
 #Search__button {
@@ -47,11 +52,15 @@ form {
   width: -moz-max-content;
   width: max-content;
   padding: 10px 16px;
+  cursor: pointer;
+
 }
 
 #Search__button img {
   width: 20px;
   filter: invert(100%);
+  cursor: pointer;
+
 }
 
 .Search__icons {
@@ -99,11 +108,15 @@ form {
     display: flex;
     flex: 1;
     margin-right: 100px;
+  cursor: pointer;
+
   }
 
   #logo {
     height: 30px;
     width: 130px;
+  cursor: pointer;
+
 
   }
 
@@ -112,15 +125,18 @@ form {
     flex: 1;
     align-items: center;
     color: #474747;
+  cursor: pointer;
+
   }
 
   #burger_menu {
     color: #474747;
-    text-decoration: none;
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 700;
     padding: 10px;
+  cursor: pointer;
+
   }
 
   .Search__container {
@@ -157,7 +173,7 @@ form {
   .Search__container2 {
     display: flex;
     background-color: red;
-    border: 1px solid rgb(161, 159, 159);
+    border: 0.5px solid rgba(240, 239, 239, 0.616);
     position: relative;
     top: 5px;
     padding: 3px;
@@ -167,6 +183,7 @@ form {
     border: none;
     background-color: red;
     width: 100%;
+    outline: none;
   }
 
   #Search__button2 {
@@ -182,9 +199,8 @@ form {
   }
 
   ::placeholder {
-    color: rgb(204, 200, 200);
+    color: rgb(240, 239, 239);
     opacity: 1;
-    /* Firefox */
     font-size: 10px;
     font-weight: 100;
   }
@@ -199,8 +215,8 @@ form {
     background-color: white;
     flex-direction: column;
     justify-content: start;
-    left: 0;
-    display: none;
+    left: -40%;
+    transition: 300ms all;
     
   }
   .main__nav2__menu a{
